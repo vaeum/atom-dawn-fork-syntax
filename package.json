@@ -1,0 +1,17 @@
+{
+  "name": "atom-dawn-fork-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Port of the TextMate \"Dawn\" syntax theme for Atom",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "dawn"
+  ],
+  "repository": "https://github.com/vaeum/atom-dawn-fork-syntax",
+  "license": "MIT",
+  "engines": {
+     "atom": ">=1.13.0"
+  }
+}
