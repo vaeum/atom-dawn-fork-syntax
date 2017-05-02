@@ -1,4 +1,4 @@
-# atom-dawn-syntax
+# Atom dawn fork syntax
 
 A port of the TextMate *"Dawn"* syntax theme for Atom >= 1.13.0.
 
