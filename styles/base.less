@@ -228,3 +228,25 @@ atom-text-editor .invisible-character, atom-text-editor .invisible-character {
 .bracket-matcher .region{
   border-bottom: 2px solid #000;
 }
+
+// цвет выделения при ctrl-d
+atom-text-editor .highlights .highlight-selected .region {
+  border-color: #9e0000;
+}
+
+// цвет подсветки при поиске
+atom-text-editor .find-result .region {
+  border-color: #9e0000;
+}
+
+// цвет при синтаксической ошибке
+.spell-check-misspelling .region {
+  border: 1px solid rgb(255, 51, 51);
+  border-radius: 4px;
+}
+
+// помечаем строку при изменения git
+atom-text-editor .gutter .line-number.git-line-added {
+  border-left: 2px solid #0b6125;
+  padding-left: calc(0.5em - 2px);
+}
