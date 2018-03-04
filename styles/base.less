@@ -51,6 +51,7 @@ atom-text-editor.is-focused .cursor, atom-text-editor .cursor {
 atom-text-editor.is-focused .selection .region,
 atom-text-editor .selection .region {
   background-color: @syntax-selection-color;
+  border-radius: 4px;
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection,
@@ -226,7 +227,9 @@ atom-text-editor .invisible-character, atom-text-editor .invisible-character {
 }
 
 .bracket-matcher .region{
-  border-bottom: 2px solid #000;
+  border-bottom: none;
+  background-color: @syntax-selection-color;
+  border-radius: 4px;
 }
 
 // цвет выделения при ctrl-d
