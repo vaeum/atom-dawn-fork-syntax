@@ -1,7 +1,7 @@
 {
   "name": "atom-dawn-fork-syntax",
   "theme": "syntax",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Port of the TextMate \"Dawn\" syntax theme for Atom",
   "keywords": [
     "syntax",
